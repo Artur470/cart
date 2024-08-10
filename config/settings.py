@@ -69,7 +69,7 @@ INSTALLED_APPS = [
     #apps
     'product.apps.ProductConfig',
     'users.apps.UsersConfig',
-    'cart.apps.CartConfig'
+    'carts.apps.CartsConfig'
 ]
 
 MIDDLEWARE = [
@@ -146,7 +146,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-
+APPEND_SLASH = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 

@@ -1,5 +1,5 @@
 from django.db import models
-from cart.models import Cart, CartItem
+
 from datetime import datetime
 
 

@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import Product, Color, Category, Brand
 from .models import *
-from cart.models import Cart
+from carts.models import Cart
 
 
 class ColorSerializer(serializers.ModelSerializer):
